@@ -2,6 +2,10 @@
 
 **MSDynamicsDrawerViewController** was written by **[Eric Horacek](https://twitter.com/erichoracek)** for **[Monospace Ltd.](http://www.monospacecollective.com)**
 
+## Madefire notes
+
+This is a Madefire fork that contains a change for the statusBar crash that appeared in iOS 13.  This was needed since the `MSDynamicsDrawerViewController` is no longer being maintained.
+
 ## What is it?
 
 `MSDynamicsDrawerViewController` is a container view controller that manages the presentation of a single "pane" view controller overlaid over one or two "drawer" view controllers. The drawer view controllers are hidden by default, but can be exposed by a user-initiated swipe in the direction that that drawer view controller is hidden in. It uses UIKit Dynamics for all animation—there's not a single call to `animateWithDuration:animations:` in the project.
